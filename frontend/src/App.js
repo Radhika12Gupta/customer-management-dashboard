@@ -6,7 +6,7 @@ import "./App.css";
 
 const App = () => {
   const [customers, setCustomers] = useState([]);
-  const API_URL = "https://customer-management-dashboard-three.vercel.app/";
+  const API_URL = "https://customer-management-dashboard-three.vercel.app";
 
   useEffect(() => {
     fetchCustomers();
